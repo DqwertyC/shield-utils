@@ -1,0 +1,2 @@
+loot replace entity @s[nbt={SelectedItem:{id:"minecraft:shield"}}] weapon.mainhand loot shield_utils:disable_mainhand
+loot replace entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] weapon.offhand loot shield_utils:disable_offhand

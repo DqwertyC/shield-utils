@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Inventory[{Slot:-106b}].tag",
+                  "target": "CustomData",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:87048211}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Disabled Shield",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

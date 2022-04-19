@@ -1,0 +1,2 @@
+loot replace entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:87048211}}}] weapon.mainhand loot shield_utils:enable_mainhand
+loot replace entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:87048211}}]}] weapon.offhand loot shield_utils:enable_offhand
